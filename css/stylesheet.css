@@ -1,9 +1,9 @@
-#panelTop {
-    border: 2px solid gray;
-    position: inherit;
+#panelTop{
+    border:2px solid gray;
+    position:inherit;
 }
 
-#listNavigation {
+#listNavigation{
     list-style-type: none;
     margin: 5px;
     padding: 5px;
@@ -14,33 +14,33 @@
     display: inline;
 }
 
-#listNavigation li a {
+#listNavigation li a{
     padding: .2em 1em;
     color: #fff;
     background-color: #036;
 }
 
-#panelRight {
+#panelRight{
 
 }
 
-#panelLeft {
+#panelLeft{
 
 }
 
-#panelContent {
+#panelContent{
 
 }
 
 .navigationButton {
-    padding: 5px 5px 5px 5px;
+    padding:5px 5px 5px 5px;
     background-color: lightblue;
     border: 1px solid blue;
-    color: #000;
-    text-decoration: none;
+    color:#000;
+    text-decoration:none;
 }
 
-.navigationButton:hover {
+.navigationButton:hover{
     background-color: red;
 }
 
@@ -49,56 +49,14 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    width: 996px;
-    margin: 0 auto;
-    padding: 10px;
+    width: 996px; margin: 0 auto; padding: 10px;
 }
 
-#text {
-    font-family: Times;
-    color: #2a2828;
+#text{
+    font-family:Times;
+    color:#2a2828;
 }
 
-#buttonRegister {
+#buttonRegister{
 
-}
-
-#slider {
-    height: 299px;
-    width: 960px;
-    position: relative;
-    overflow: hidden;
-}
-
-#slider .jcarousel-container, #slider .jcarousel-clip, #slider li {
-    height: 299px;
-    width: 960px;
-    position: relative;
-    overflow: hidden;
-}
-
-#slider li img {
-    display: block;
-}
-
-#slider .btn {
-    display: block;
-    font-size: 0;
-    line-height: 0;
-    text-indent: -4000px;
-    width: 43px;
-    height: 43px;
-    position: absolute;
-    top: 117px;
-    display: none;
-}
-
-#slider .next {
-    right: 13px;
-    background: url(../pictures/right.png) no-repeat;
-}
-
-#slider .prev {
-    left: 13px;
-    background: url(../pictures/left.png) no-repeat;
 }
