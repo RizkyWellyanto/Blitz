@@ -1,0 +1,82 @@
+#panelTop{
+    border:2px solid gray;
+    position:inherit;
+}
+
+#listNavigation{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#listNavigation li {
+    display: inline;
+}
+
+#listNavigation li a{
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #036;
+}
+.navigationButton {
+    padding:5px 5px 5px 5px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    color:#000;
+    text-decoration:none;
+}
+
+.navigationButton:hover{
+    background-color: red;
+}
+
+#page {
+    background-image: url("../pictures/page_background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 996px; 
+	margin: 0 auto; 
+	padding: 10px;
+}
+
+#email li{
+	display: inline;
+	text-decoration: none;
+}
+
+#Password li{
+	display: inline;
+	text-decoration: none;
+}
+
+#Password_retype li{
+	display: inline;
+	text-decoration: none;
+}
+
+#register_now li{
+	text-decoration: none;
+	color: ;
+	background-color: ;
+}
+
+#socialMediaButtons a{
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	
+}
+h1{
+	color: red;
+	text-align: center;
+	padding-left: 15px;
+	margin-left: 15px;
+	width: ;
+}
+#register{
+	text-align: center;
+	text-decoration: none;
+	padding-top: 100px;
+}

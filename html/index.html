@@ -5,37 +5,91 @@
     <title>Project Blitz</title>
 </head>
 <body id="page">
-<!-- this will be the navigation bar -->
-<div id="panelTop">
-    <ul id="listNavigation">
-        <li id="text">Blitz Navigation Panel</li>
-        <li><input type="button" id="buttonHome" class="navigationButton" value="Home"></li>
-        <li><input type="button" id="buttonAbout" class="navigationButton" value="About Us & Terms and Codition"></li>
-        <li><input type="button" id="buttonBrowse" class="navigationButton" value="Browse"></li>
-        <li><input type="button" id="buttonAccount" class="navigationButton" value="My Account"></li>
-        <li><input type="button" id="buttonRegister" class="navigationButton" value="Register"></li>
-        <li><input type="text" id="textSearch" value="search here"></li>
-        <li><input type="button" id="buttonSearch" class="navigationButton" value="Search"></li>
-        <li><input type="button" id="buttonSocialMedia" class="navigationButton" value="Social Media Buttons"></li>
-    </ul>
-</div>
+    <!-- this will be the navigation bar -->
+    <div id="panelTop">
+        <ul id="listNavigation">
+            <!-- <li id="text">Blitz Navigation Panel</li> -->
+            <a href="../html/index.html" alt="goback home">
+			<!-- When the home button is clicked, the page should load to the main page-->
+			<li><input type="button" id="buttonHome" class="navigationButton" value="Home"></li>
+			</a>
+            <li><input type="button" id="buttonAbout" class="navigationButton" value="About Us and Terms & Condition"></li>
+			<!-- This, Browse, needs to serve as an archive. Preferably, it should be a hoover such that when the mouse is dragged
+			over or pointed to it, the list of almost everything on the site - especially the articles - should be displayed-->
+            <li><input type="button" id="buttonBrowse" class="navigationButton" value="Browse"></li>
+            <li><input type="button" id="buttonAccount" class="navigationButton" value="My Account"></li>
+            <a href="../html/Project Blitz Registration.html" alt="registration page">
+			<li><input type="button" id="buttonRegister" class="navigationButton" value="Register"></li>
+			</a>
+            <li><input type="text" id="textSearch" value="search here"></li>
+            <li><input type="button" id="buttonSearch" class="navigationButton" value="Search"></li>
+			<!-- We need a design and implementation such that this button is a hoover; when the mouse is dragged 
+					over it, the list of social media buttons should be displayed. Alternatively, we could just design it as
+					it's in the planning: buttons for each social media we want to use.-->
+            <li><input type="button" id="buttonSocialMedia" class="navigationButton" value="Social Media Buttons"></li>
+        </ul>
+    </div>
 
-<!-- this will be the advertisement panel -->
-<div id="panelRight">
+    <!-- this will be the advertisement panel on the right -->
+    <div id="panelRight">
+	<!-- We'll make greater use of javascript and such to randomize the content of this 
+					section of the page -->
+				<p>Advertisements on the right panel of the page</p>
 
-</div>
+    </div>
 
-<!-- this will be the advertisement panel -->
-<div id="panelLeft">
+    <!-- this will be the advertisement panel on the left -->
+    <div id="panelLeft">
+	<!-- We'll make greater use of javascript and such to randomize the content of this 
+					section of the page-->
+				<p>Advertisements on the left panel of the page</p>
 
-</div>
+    </div>
 
-<!-- this will be the content panel -->
-<div id="panelContent">
+    <!-- this will be the content panel -->
+    <div id="panelContent"><!--Below is the code from Clement's Mom's website. 
+			One thing though is that the following code is specified for pictures. I think our
+			target is for texts, right? If it be so, we have to figure out necessary changes. -->
+				<div id="slider">
+					<ul>
+						<li><a href="#"><img src="" alt="Essay one" /></a></li>
+						<li><a href="#"><img src="" alt="Essay two" /></a></li>
+						<li><a href="#"><img src="" alt="Essay three" /></a></li>
+						<li><a href="#"><img src="" alt="Essay four" /></a></li>
+						<li><a href="#"><img src="" alt="Essay five"/></a></li>
+						<li><a href="#"><img src="" alt="Essay six"/></a></li>
+						<li><a href="#"><img src="" alt="Essay seven"/></a></li>
+						<li><a href="#"><img src="" alt="Essay eight"/></a></li>
+						<li><a href="#"><img src="" alt="Essay nine"/></a></li>
+						<li><a href="#"><img src="" alt="Essay ten"/></a></li>
+						<li><a href="#"><img src="" alt="Essay eleven"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twelve"/></a></li>
+						<li><a href="#"><img src="" alt="Essay thirteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay fourteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay fifteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay sixteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay seventeen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay eighteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay nineteen"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty-one"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty-two"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty-three"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty-four"/></a></li>
+						<li><a href="#"><img src="" alt="Essay twenty-five"/></a></li>
+					</ul>
+					<!-- This section should be designed in such way so that when the previous 
+					is pressed, the previous essay should be on display unless the current essay is
+					the first on the list. Similarly, when the next button is pressed, the next essay 
+					should be displayed unless the current essay is the last on the list of essays above.
+					I'm sure javascript can be used to implement this functionality.-->
+						<a href="#" class="prev">Prev</a>
+						<a href="#" class="next">Next</a>
+				</div>
 
-</div>
+    </div>
 
-<script defer="" src="../scripts/jquery.js"></script>
-<script defer="" src="../scripts/script.js"></script>
+    <script defer="" src="../scripts/jquery.js"></script>
+    <script defer="" src="../scripts/script.js"></script>
 </body>
 </html>
